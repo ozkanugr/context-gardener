@@ -1,0 +1,16 @@
+{
+  "description": "Nags (non-blocking) at session start when CLAUDE.md / project context files are large or haven't been groomed in a while.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/check-staleness.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
