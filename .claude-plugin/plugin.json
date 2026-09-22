@@ -1,0 +1,10 @@
+{
+  "name": "context-gardener",
+  "description": "Keeps CLAUDE.md and project memory files accurate and lean: verifies every claim against the actual repo before keeping it, dedupes across files, replaces superseded decisions instead of stacking them, splits bloated files by topic, and nags you when a context file has gone stale.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "ozkanugr"
+  },
+  "keywords": ["claude-code-plugin", "context", "memory", "claude-md", "maintenance"]
+}

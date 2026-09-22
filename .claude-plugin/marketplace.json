@@ -1,0 +1,13 @@
+{
+  "name": "context-gardener",
+  "owner": {
+    "name": "ozkanugr"
+  },
+  "plugins": [
+    {
+      "name": "context-gardener",
+      "source": "./",
+      "description": "Keeps CLAUDE.md and project memory files accurate and lean: verifies claims against the repo, dedupes across files, replaces superseded decisions instead of stacking them, splits bloated files by topic, and nags you when context has gone stale."
+    }
+  ]
+} 
